@@ -1,0 +1,39 @@
+body{
+    background-color: gainsboro;
+    margin: 0px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#logo-imagen{
+    background-image: url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.6.73/mercadolibre/logo_large_25years_v2.png");
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: orange;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+main{
+    background-color: brown;
+    height: 500px;
+}
+footer{
+    background-color: aquamarine;
+}
+
+ul{
+    display: flex;
+    grid-column: 2/4;
+}
+
+input{
+    height: 50px;    
+}
